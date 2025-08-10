@@ -6,8 +6,6 @@
 package ivorius.reccomplex.gui;
 
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraftforge.fml.relauncher.Side;
-import net.minecraftforge.fml.relauncher.SideOnly;
 
 /**
  * Created by lukas on 18.01.15.

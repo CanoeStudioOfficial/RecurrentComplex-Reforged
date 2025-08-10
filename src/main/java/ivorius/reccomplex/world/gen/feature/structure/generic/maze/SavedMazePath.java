@@ -11,8 +11,8 @@ import ivorius.ivtoolkit.maze.components.MazeRoom;
 import ivorius.ivtoolkit.tools.NBTCompoundObject;
 import ivorius.reccomplex.json.JsonUtils;
 import net.minecraft.nbt.NBTTagCompound;
-import net.minecraftforge.common.util.Constants;
 import net.minecraft.util.EnumFacing;
+import net.minecraftforge.common.util.Constants;
 
 import javax.annotation.Nonnull;
 import java.lang.reflect.Type;

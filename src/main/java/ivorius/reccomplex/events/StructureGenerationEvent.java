@@ -5,10 +5,10 @@
 
 package ivorius.reccomplex.events;
 
-import net.minecraftforge.fml.common.eventhandler.Cancelable;
 import ivorius.reccomplex.world.gen.feature.structure.Structure;
 import ivorius.reccomplex.world.gen.feature.structure.context.StructureSpawnContext;
 import net.minecraftforge.event.world.WorldEvent;
+import net.minecraftforge.fml.common.eventhandler.Cancelable;
 
 /**
  * Created by lukas on 18.09.14.

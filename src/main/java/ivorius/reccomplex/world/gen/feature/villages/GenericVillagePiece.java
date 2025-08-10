@@ -32,7 +32,6 @@ import net.minecraft.world.gen.structure.template.TemplateManager;
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import javax.annotation.ParametersAreNonnullByDefault;
-import java.util.Optional;
 import java.util.Random;
 
 /**

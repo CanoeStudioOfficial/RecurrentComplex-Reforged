@@ -5,9 +5,9 @@
 
 package ivorius.reccomplex.block;
 
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-import net.minecraft.nbt.NBTTagCompound;
 
 /**
  * Created by lukas on 11.02.15.

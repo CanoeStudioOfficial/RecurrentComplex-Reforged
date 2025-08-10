@@ -12,15 +12,15 @@ import ivorius.ivtoolkit.blocks.IvBlockCollection;
 import ivorius.ivtoolkit.gui.IntegerRange;
 import ivorius.ivtoolkit.random.WeightedSelector;
 import ivorius.ivtoolkit.tools.IvTranslations;
-import ivorius.reccomplex.gui.table.datasource.TableDataSource;
-import ivorius.reccomplex.gui.table.TableDelegate;
-import ivorius.reccomplex.gui.table.TableNavigator;
-import ivorius.reccomplex.json.JsonUtils;
-import ivorius.reccomplex.world.gen.feature.structure.Placer;
-import ivorius.ivtoolkit.world.WorldCache;
 import ivorius.ivtoolkit.util.LineSelection;
 import ivorius.ivtoolkit.util.LineSelections;
+import ivorius.ivtoolkit.world.WorldCache;
 import ivorius.ivtoolkit.world.chunk.gen.StructureBoundingBoxes;
+import ivorius.reccomplex.gui.table.TableDelegate;
+import ivorius.reccomplex.gui.table.TableNavigator;
+import ivorius.reccomplex.gui.table.datasource.TableDataSource;
+import ivorius.reccomplex.json.JsonUtils;
+import ivorius.reccomplex.world.gen.feature.structure.Placer;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.WorldServer;
 import net.minecraftforge.fml.relauncher.Side;
@@ -29,7 +29,10 @@ import org.apache.commons.lang3.tuple.Pair;
 
 import javax.annotation.Nullable;
 import java.lang.reflect.Type;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 /**

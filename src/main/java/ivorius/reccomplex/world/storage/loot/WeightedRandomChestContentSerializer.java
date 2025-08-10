@@ -6,8 +6,8 @@
 package ivorius.reccomplex.world.storage.loot;
 
 import com.google.gson.*;
-import net.minecraft.item.ItemStack;
 import ivorius.reccomplex.json.JsonUtils;
+import net.minecraft.item.ItemStack;
 
 import java.lang.reflect.Type;
 

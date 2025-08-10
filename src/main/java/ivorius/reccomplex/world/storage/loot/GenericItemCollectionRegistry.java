@@ -7,8 +7,8 @@ package ivorius.reccomplex.world.storage.loot;
 
 import com.google.common.collect.Lists;
 import ivorius.reccomplex.RCConfig;
-import ivorius.reccomplex.files.loading.LeveledRegistry;
 import ivorius.reccomplex.files.SimpleLeveledRegistry;
+import ivorius.reccomplex.files.loading.LeveledRegistry;
 
 import java.util.Collection;
 

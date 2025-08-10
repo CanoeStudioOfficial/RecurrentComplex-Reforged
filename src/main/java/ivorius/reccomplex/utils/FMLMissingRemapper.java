@@ -5,10 +5,10 @@
 
 package ivorius.reccomplex.utils;
 
+import ivorius.ivtoolkit.tools.MCRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
-import ivorius.ivtoolkit.tools.MCRegistry;
 import net.minecraftforge.event.RegistryEvent;
 
 /**

@@ -5,11 +5,11 @@
 
 package ivorius.reccomplex.client.rendering;
 
-import net.minecraft.util.math.BlockPos;
 import ivorius.ivtoolkit.rendering.grid.GridQuadCache;
 import ivorius.reccomplex.world.gen.feature.structure.schematics.SchematicFile;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.EnumFacing;
+import net.minecraft.util.math.BlockPos;
 
 /**
  * Created by lukas on 22.03.15.

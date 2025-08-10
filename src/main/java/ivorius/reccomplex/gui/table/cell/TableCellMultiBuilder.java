@@ -5,7 +5,6 @@
 
 package ivorius.reccomplex.gui.table.cell;
 
-import gnu.trove.list.TFloatList;
 import gnu.trove.map.TIntObjectMap;
 import gnu.trove.map.hash.TIntObjectHashMap;
 import ivorius.ivtoolkit.tools.IvTranslations;

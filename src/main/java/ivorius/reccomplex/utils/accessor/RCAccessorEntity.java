@@ -5,8 +5,8 @@
 
 package ivorius.reccomplex.utils.accessor;
 
-import net.minecraftforge.fml.relauncher.ReflectionHelper;
 import net.minecraft.entity.Entity;
+import net.minecraftforge.fml.relauncher.ReflectionHelper;
 
 import java.lang.reflect.Field;
 import java.util.UUID;

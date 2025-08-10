@@ -6,17 +6,17 @@
 package ivorius.reccomplex.world.gen.feature.structure.generic.transformers;
 
 import ivorius.ivtoolkit.blocks.BlockAreas;
+import ivorius.ivtoolkit.blocks.IvBlockCollection;
 import ivorius.ivtoolkit.blocks.IvMutableBlockPos;
+import ivorius.ivtoolkit.tools.IvWorldData;
 import ivorius.ivtoolkit.world.chunk.gen.StructureBoundingBoxes;
 import ivorius.reccomplex.nbt.NBTStorable;
-import ivorius.reccomplex.utils.*;
+import ivorius.reccomplex.utils.RCStructureBoundingBoxes;
 import ivorius.reccomplex.world.gen.feature.structure.Environment;
 import ivorius.reccomplex.world.gen.feature.structure.context.StructureLiveContext;
-import net.minecraft.util.math.BlockPos;
-import ivorius.ivtoolkit.blocks.IvBlockCollection;
-import ivorius.ivtoolkit.tools.IvWorldData;
 import ivorius.reccomplex.world.gen.feature.structure.context.StructureSpawnContext;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.gen.structure.StructureBoundingBox;
 
 import javax.annotation.Nonnull;

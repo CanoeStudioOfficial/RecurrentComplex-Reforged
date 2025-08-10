@@ -6,19 +6,19 @@
 package ivorius.reccomplex.client.rendering;
 
 import ivorius.ivtoolkit.blocks.BlockArea;
-import ivorius.reccomplex.utils.Icons;
-import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
-import net.minecraft.util.math.BlockPos;
 import ivorius.ivtoolkit.math.AxisAlignedTransform2D;
 import ivorius.ivtoolkit.rendering.grid.AreaRenderer;
 import ivorius.ivtoolkit.rendering.grid.CubeMesh;
 import ivorius.ivtoolkit.rendering.grid.GridQuadCache;
+import ivorius.reccomplex.utils.Icons;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.client.renderer.Tessellator;
-import net.minecraft.util.ResourceLocation;
+import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.util.EnumFacing;
-import net.minecraft.client.renderer.GlStateManager;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.math.BlockPos;
 import org.lwjgl.opengl.GL11;
 
 import javax.annotation.Nullable;

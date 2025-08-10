@@ -5,7 +5,8 @@
 
 package ivorius.reccomplex.world.gen.feature.structure.generic.placement;
 
-import com.google.gson.*;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import ivorius.reccomplex.json.SerializableStringTypeRegistry;
 
 /**

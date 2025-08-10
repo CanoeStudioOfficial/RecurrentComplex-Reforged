@@ -5,7 +5,10 @@
 
 package ivorius.reccomplex.world.gen.feature.structure.generic.maze.rules;
 
-import ivorius.ivtoolkit.maze.components.*;
+import ivorius.ivtoolkit.maze.components.MazePredicate;
+import ivorius.ivtoolkit.maze.components.MazeRoom;
+import ivorius.ivtoolkit.maze.components.MorphingMazeComponent;
+import ivorius.ivtoolkit.maze.components.ShiftedMazeComponent;
 
 import javax.annotation.Nonnull;
 import java.util.Collection;

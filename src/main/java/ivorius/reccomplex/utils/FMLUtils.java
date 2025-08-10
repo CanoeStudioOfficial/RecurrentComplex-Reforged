@@ -6,11 +6,11 @@
 package ivorius.reccomplex.utils;
 
 import com.google.common.collect.ObjectArrays;
-import net.minecraftforge.fml.common.Loader;
-import net.minecraftforge.fml.common.ModContainer;
 import ivorius.reccomplex.RecurrentComplex;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
+import net.minecraftforge.fml.common.Loader;
+import net.minecraftforge.fml.common.ModContainer;
 
 import java.lang.reflect.Constructor;
 

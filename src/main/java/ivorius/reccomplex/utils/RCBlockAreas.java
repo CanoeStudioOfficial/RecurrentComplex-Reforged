@@ -6,13 +6,9 @@
 package ivorius.reccomplex.utils;
 
 import ivorius.ivtoolkit.blocks.BlockArea;
-import ivorius.ivtoolkit.blocks.BlockAreas;
-import ivorius.ivtoolkit.blocks.BlockPositions;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3i;
 import net.minecraft.world.gen.structure.StructureBoundingBox;
-
-import javax.annotation.Nullable;
 
 /**
  * Created by lukas on 17.05.17.

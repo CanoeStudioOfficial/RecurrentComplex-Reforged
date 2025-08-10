@@ -6,15 +6,13 @@
 package ivorius.reccomplex.world.gen.feature.structure.generic.generation;
 
 import com.google.gson.JsonObject;
-import ivorius.ivtoolkit.maze.classic.MazeRoom;
 import ivorius.reccomplex.client.rendering.MazeVisualizationContext;
-import ivorius.reccomplex.gui.table.datasource.TableDataSource;
 import ivorius.reccomplex.gui.table.TableDelegate;
 import ivorius.reccomplex.gui.table.TableNavigator;
+import ivorius.reccomplex.gui.table.datasource.TableDataSource;
 import ivorius.reccomplex.json.JsonUtils;
-import ivorius.reccomplex.world.gen.feature.structure.StructureRegistry;
 import ivorius.reccomplex.world.gen.feature.structure.Placer;
-import net.minecraft.util.math.BlockPos;
+import ivorius.reccomplex.world.gen.feature.structure.StructureRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -22,7 +20,6 @@ import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
 import java.util.Random;
 import java.util.Stack;
-import java.util.function.Function;
 
 /**
  * Created by lukas on 19.02.15.

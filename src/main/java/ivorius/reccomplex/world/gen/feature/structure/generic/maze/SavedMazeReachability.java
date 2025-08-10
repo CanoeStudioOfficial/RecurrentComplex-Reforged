@@ -5,15 +5,15 @@
 
 package ivorius.reccomplex.world.gen.feature.structure.generic.maze;
 
-import com.google.common.base.Predicates;
 import com.google.common.collect.ImmutableMultimap;
-import com.google.common.collect.ImmutableSetMultimap;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
 import com.google.gson.*;
 import com.google.gson.reflect.TypeToken;
 import ivorius.ivtoolkit.math.AxisAlignedTransform2D;
-import ivorius.ivtoolkit.maze.components.*;
+import ivorius.ivtoolkit.maze.components.MazePassage;
+import ivorius.ivtoolkit.maze.components.MazePassages;
+import ivorius.ivtoolkit.maze.components.MazeRoom;
 import ivorius.ivtoolkit.tools.NBTCompoundObject;
 import ivorius.ivtoolkit.tools.NBTCompoundObjects;
 import ivorius.ivtoolkit.tools.NBTTagLists;

@@ -6,7 +6,6 @@
 package ivorius.reccomplex.utils;
 
 import ivorius.ivtoolkit.blocks.BlockAreas;
-import ivorius.ivtoolkit.world.chunk.gen.StructureBoundingBoxes;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.ChunkPos;
 import net.minecraft.world.gen.structure.StructureBoundingBox;

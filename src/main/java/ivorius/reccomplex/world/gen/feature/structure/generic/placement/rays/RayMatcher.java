@@ -32,8 +32,6 @@ import java.lang.reflect.Type;
 import java.util.OptionalInt;
 import java.util.Set;
 
-import static ivorius.reccomplex.world.gen.feature.structure.generic.placement.FactorLimit.getRayRegistry;
-
 /**
  * Created by lukas on 19.09.16.
  */

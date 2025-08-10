@@ -5,12 +5,12 @@
 
 package ivorius.reccomplex.utils;
 
-import net.minecraft.util.ResourceLocation;
 import ivorius.ivtoolkit.tools.MCRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 
 /**

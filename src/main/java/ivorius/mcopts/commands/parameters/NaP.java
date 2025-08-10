@@ -7,8 +7,6 @@ package ivorius.mcopts.commands.parameters;
 
 import net.minecraft.command.CommandBase;
 
-import java.util.function.BinaryOperator;
-
 /**
  * Created by lukas on 07.06.17.
  */

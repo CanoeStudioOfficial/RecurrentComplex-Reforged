@@ -39,7 +39,6 @@ import java.util.Collection;
 import java.util.Optional;
 import java.util.Random;
 import java.util.function.Predicate;
-import java.util.stream.Collectors;
 
 /**
  * Created by lukas on 19.01.15.

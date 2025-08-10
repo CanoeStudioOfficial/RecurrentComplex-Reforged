@@ -5,7 +5,6 @@
 
 package ivorius.reccomplex.world.gen.feature;
 
-import ivorius.reccomplex.RCRegistryHandler;
 import net.minecraft.util.math.ChunkPos;
 import net.minecraftforge.fml.common.FMLLog;
 import org.apache.logging.log4j.core.LogEvent;

@@ -9,8 +9,8 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import ivorius.reccomplex.RecurrentComplex;
 import ivorius.reccomplex.files.loading.RCFileSuffix;
-import ivorius.reccomplex.world.gen.feature.structure.generic.WeightedBlockState;
 import ivorius.reccomplex.utils.presets.PresetRegistry;
+import ivorius.reccomplex.world.gen.feature.structure.generic.WeightedBlockState;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;

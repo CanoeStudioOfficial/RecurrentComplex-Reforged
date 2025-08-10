@@ -5,9 +5,9 @@
 
 package ivorius.reccomplex.utils.accessor;
 
-import net.minecraftforge.fml.relauncher.ReflectionHelper;
 import net.minecraft.nbt.NBTBase;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraftforge.fml.relauncher.ReflectionHelper;
 
 import java.io.DataOutput;
 import java.lang.reflect.InvocationTargetException;

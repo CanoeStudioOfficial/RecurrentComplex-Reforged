@@ -6,6 +6,7 @@
 package ivorius.reccomplex.world.gen.feature.structure;
 
 import ivorius.ivtoolkit.blocks.IvBlockCollection;
+import ivorius.reccomplex.nbt.NBTStorable;
 import ivorius.reccomplex.world.gen.feature.structure.context.StructureLoadContext;
 import ivorius.reccomplex.world.gen.feature.structure.context.StructurePrepareContext;
 import ivorius.reccomplex.world.gen.feature.structure.context.StructureSpawnContext;
@@ -13,7 +14,6 @@ import ivorius.reccomplex.world.gen.feature.structure.generic.GenericStructure;
 import ivorius.reccomplex.world.gen.feature.structure.generic.GenericVariableDomain;
 import ivorius.reccomplex.world.gen.feature.structure.generic.generation.GenerationType;
 import ivorius.reccomplex.world.gen.feature.structure.generic.transformers.TransformerMulti;
-import ivorius.reccomplex.nbt.NBTStorable;
 import net.minecraft.nbt.NBTBase;
 import net.minecraft.util.text.TextComponentBase;
 

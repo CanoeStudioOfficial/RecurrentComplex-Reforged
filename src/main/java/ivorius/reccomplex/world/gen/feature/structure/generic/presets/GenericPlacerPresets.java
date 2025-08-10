@@ -8,8 +8,8 @@ package ivorius.reccomplex.world.gen.feature.structure.generic.presets;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.GsonBuilder;
 import ivorius.reccomplex.files.loading.RCFileSuffix;
-import ivorius.reccomplex.world.gen.feature.structure.generic.placement.GenericPlacer;
 import ivorius.reccomplex.utils.presets.PresetRegistry;
+import ivorius.reccomplex.world.gen.feature.structure.generic.placement.GenericPlacer;
 
 import java.lang.reflect.Type;
 

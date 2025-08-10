@@ -6,12 +6,12 @@
 package ivorius.reccomplex.utils.expression;
 
 import ivorius.ivtoolkit.tools.MCRegistry;
+import ivorius.ivtoolkit.world.MockWorld;
+import ivorius.ivtoolkit.world.WorldCache;
 import ivorius.reccomplex.utils.RCBlockLogic;
 import ivorius.reccomplex.utils.algebra.BoolFunctionExpressionCache;
 import ivorius.reccomplex.utils.algebra.RCBoolAlgebra;
 import ivorius.reccomplex.utils.algebra.SupplierCache;
-import ivorius.ivtoolkit.world.MockWorld;
-import ivorius.ivtoolkit.world.WorldCache;
 import net.minecraft.block.BlockSapling;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.material.MaterialLiquid;

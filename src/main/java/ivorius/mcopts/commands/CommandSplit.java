@@ -5,7 +5,6 @@
 
 package ivorius.mcopts.commands;
 
-import com.google.common.collect.Lists;
 import ivorius.mcopts.commands.parameters.Parameters;
 import net.minecraft.command.*;
 import net.minecraft.server.MinecraftServer;

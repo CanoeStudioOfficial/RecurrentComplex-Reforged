@@ -7,9 +7,9 @@ package ivorius.reccomplex.gui;
 
 import ivorius.ivtoolkit.blocks.BlockSurfacePos;
 import ivorius.ivtoolkit.tools.IvTranslations;
+import ivorius.reccomplex.gui.table.cell.TableCellIntTextField;
 import ivorius.reccomplex.gui.table.cell.TableCellMulti;
 import ivorius.reccomplex.gui.table.cell.TableCellPropertyDefault;
-import ivorius.reccomplex.gui.table.cell.TableCellIntTextField;
 import ivorius.reccomplex.gui.table.cell.TitledCell;
 import ivorius.reccomplex.gui.table.datasource.TableDataSourceSegmented;
 import net.minecraftforge.fml.relauncher.Side;

@@ -10,7 +10,6 @@ import ivorius.ivtoolkit.rendering.grid.AreaRenderer;
 import ivorius.reccomplex.RecurrentComplex;
 import ivorius.reccomplex.capability.SelectionOwner;
 import ivorius.reccomplex.item.ItemBlockSelector;
-import ivorius.reccomplex.item.ItemBlockSelectorFloating;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.OpenGlHelper;

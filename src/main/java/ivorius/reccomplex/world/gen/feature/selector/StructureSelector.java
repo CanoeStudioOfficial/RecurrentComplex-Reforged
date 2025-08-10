@@ -12,18 +12,21 @@ import gnu.trove.map.hash.TObjectDoubleHashMap;
 import ivorius.ivtoolkit.random.WeightedSelector;
 import ivorius.reccomplex.RCConfig;
 import ivorius.reccomplex.dimensions.DimensionDictionary;
+import ivorius.reccomplex.utils.presets.PresettedList;
 import ivorius.reccomplex.world.gen.feature.structure.Structure;
 import ivorius.reccomplex.world.gen.feature.structure.generic.WeightedBiomeMatcher;
 import ivorius.reccomplex.world.gen.feature.structure.generic.WeightedDimensionMatcher;
 import ivorius.reccomplex.world.gen.feature.structure.generic.generation.GenerationType;
-import ivorius.reccomplex.utils.presets.PresettedList;
 import net.minecraft.world.WorldProvider;
 import net.minecraft.world.biome.Biome;
 import org.apache.commons.lang3.tuple.Pair;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
-import java.util.*;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Random;
+import java.util.Set;
 
 /**
  * Created by lukas on 24.05.14.

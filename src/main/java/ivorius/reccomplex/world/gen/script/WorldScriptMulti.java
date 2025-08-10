@@ -7,15 +7,15 @@ package ivorius.reccomplex.world.gen.script;
 
 import ivorius.ivtoolkit.tools.IvTranslations;
 import ivorius.ivtoolkit.tools.NBTTagLists;
-import ivorius.reccomplex.gui.table.datasource.TableDataSource;
 import ivorius.reccomplex.gui.table.TableDelegate;
 import ivorius.reccomplex.gui.table.TableNavigator;
+import ivorius.reccomplex.gui.table.datasource.TableDataSource;
 import ivorius.reccomplex.gui.worldscripts.multi.TableDataSourceWorldScriptMulti;
+import ivorius.reccomplex.nbt.NBTStorable;
+import ivorius.reccomplex.utils.expression.EnvironmentExpression;
 import ivorius.reccomplex.world.gen.feature.structure.context.StructureLoadContext;
 import ivorius.reccomplex.world.gen.feature.structure.context.StructurePrepareContext;
 import ivorius.reccomplex.world.gen.feature.structure.context.StructureSpawnContext;
-import ivorius.reccomplex.utils.expression.EnvironmentExpression;
-import ivorius.reccomplex.nbt.NBTStorable;
 import ivorius.reccomplex.world.gen.feature.structure.generic.transformers.RunTransformer;
 import net.minecraft.nbt.NBTBase;
 import net.minecraft.nbt.NBTTagCompound;
