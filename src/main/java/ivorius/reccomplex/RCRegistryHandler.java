@@ -82,21 +82,21 @@ public class RCRegistryHandler
 
     public static void preInit(FMLPreInitializationEvent event, RecurrentComplex mod)
     {
-        if (!RecurrentComplex.isLite()) {
+        if (!isLite()) {
             tabStructureTools = new CreativeTabs("structureTools")
             {
                 @Override
-                public ItemStack getTabIconItem()
+                public ItemStack createIcon()
                 {
-                    return new ItemStack(RCItems.blockSelector);
+                    return new ItemStack(blockSelector);
                 }
             };
             tabLoot = new CreativeTabs("inventoryGenerators")
             {
                 @Override
-                public ItemStack getTabIconItem()
+                public ItemStack createIcon()
                 {
-                    return new ItemStack(RCItems.lootGenerationTag);
+                    return new ItemStack(lootGenerationTag);
                 }
             };
         }
@@ -107,71 +107,71 @@ public class RCRegistryHandler
         CapabilityManager.INSTANCE.register(RCEntityInfo.class, new NBTCompoundObjectCapabilityStorage<>(RCEntityInfo.class), RCEntityInfo::new);
         CapabilityManager.INSTANCE.register(CapabilitySelection.class, new NBTCompoundObjectCapabilityStorage<>(CapabilitySelection.class), CapabilitySelection::new);
 
-        blockSelector = new ItemBlockSelectorBlock().setUnlocalizedName("blockSelector");
+        blockSelector = new ItemBlockSelectorBlock().setTranslationKey("blockSelector");
         blockSelector.setCreativeTab(tabStructureTools);
         register(blockSelector, "block_selector");
-        RecurrentComplex.cremapper.registerLegacyIDs(blockSelector, "blockSelector");
+        cremapper.registerLegacyIDs(blockSelector, "blockSelector");
 
-        blockSelectorFloating = new ItemBlockSelectorFloating().setUnlocalizedName("blockSelectorFloating");
+        blockSelectorFloating = new ItemBlockSelectorFloating().setTranslationKey("blockSelectorFloating");
         blockSelectorFloating.setCreativeTab(tabStructureTools);
         register(blockSelectorFloating, "block_selector_floating");
-        RecurrentComplex.cremapper.registerLegacyIDs(blockSelectorFloating, "blockSelectorFloating");
+        cremapper.registerLegacyIDs(blockSelectorFloating, "blockSelectorFloating");
 
-        lootGenerationTag = (ItemLootGenMultiTag) new ItemLootGenMultiTag().setUnlocalizedName("inventoryGenerationTag");
+        lootGenerationTag = (ItemLootGenMultiTag) new ItemLootGenMultiTag().setTranslationKey("inventoryGenerationTag");
         lootGenerationTag.setCreativeTab(tabLoot);
         register(lootGenerationTag, "inventory_generation_tag");
-        RecurrentComplex.cremapper.registerLegacyIDs(lootGenerationTag, "inventoryGenerationTag");
+        cremapper.registerLegacyIDs(lootGenerationTag, "inventoryGenerationTag");
 
-        lootGenerationSingleTag = (ItemLootGenSingleTag) new ItemLootGenSingleTag().setUnlocalizedName("inventoryGenerationSingleTag");
+        lootGenerationSingleTag = (ItemLootGenSingleTag) new ItemLootGenSingleTag().setTranslationKey("inventoryGenerationSingleTag");
         lootGenerationSingleTag.setCreativeTab(tabLoot);
         register(lootGenerationSingleTag, "inventory_generation_single_tag");
-        RecurrentComplex.cremapper.registerLegacyIDs(lootGenerationSingleTag, "inventoryGenerationSingleTag");
+        cremapper.registerLegacyIDs(lootGenerationSingleTag, "inventoryGenerationSingleTag");
 
-        lootGenerationComponentTag = (ItemLootTableComponentTag) new ItemLootTableComponentTag().setUnlocalizedName("inventoryGenerationComponentTag");
+        lootGenerationComponentTag = (ItemLootTableComponentTag) new ItemLootTableComponentTag().setTranslationKey("inventoryGenerationComponentTag");
         lootGenerationComponentTag.setCreativeTab(tabLoot);
         register(lootGenerationComponentTag, "inventory_generation_component_tag");
 
-        artifactGenerationTag = new ItemArtifactGenerator().setUnlocalizedName("artifactGenerationTag");
+        artifactGenerationTag = new ItemArtifactGenerator().setTranslationKey("artifactGenerationTag");
         artifactGenerationTag.setCreativeTab(tabLoot);
         register(artifactGenerationTag, "artifact_generation_tag");
-        RecurrentComplex.cremapper.registerLegacyIDs(artifactGenerationTag, "artifactGenerationTag");
+        cremapper.registerLegacyIDs(artifactGenerationTag, "artifactGenerationTag");
 
-        bookGenerationTag = new ItemBookGenerator().setUnlocalizedName("bookGenerationTag");
+        bookGenerationTag = new ItemBookGenerator().setTranslationKey("bookGenerationTag");
         bookGenerationTag.setCreativeTab(tabLoot);
         register(bookGenerationTag, "book_generation_tag");
-        RecurrentComplex.cremapper.registerLegacyIDs(bookGenerationTag, "bookGenerationTag");
+        cremapper.registerLegacyIDs(bookGenerationTag, "bookGenerationTag");
 
-        genericSpace = (BlockGenericSpace) new BlockGenericSpace().setUnlocalizedName("negativeSpace");
+        genericSpace = (BlockGenericSpace) new BlockGenericSpace().setTranslationKey("negativeSpace");
         genericSpace.setCreativeTab(tabStructureTools);
         register(genericSpace, "generic_space", new ItemBlockGenericSpace(genericSpace));
-        RecurrentComplex.cremapper.registerLegacyIDs(genericSpace, true, "negativeSpace");
+        cremapper.registerLegacyIDs(genericSpace, true, "negativeSpace");
 
-        genericSolid = new BlockGenericSolid().setUnlocalizedName("naturalFloor");
+        genericSolid = new BlockGenericSolid().setTranslationKey("naturalFloor");
         genericSolid.setCreativeTab(tabStructureTools);
         register(genericSolid, "generic_solid", new ItemBlockGenericSolid(genericSolid));
-        RecurrentComplex.cremapper.registerLegacyIDs(genericSolid, true, "naturalFloor");
+        cremapper.registerLegacyIDs(genericSolid, true, "naturalFloor");
 
-        structureGenerator = new BlockStructureGenerator().setUnlocalizedName("structureGenerator");
+        structureGenerator = new BlockStructureGenerator().setTranslationKey("structureGenerator");
         register(structureGenerator, "structure_generator");
         register(BlockStructureGenerator.TileEntityStructureGenerator.class, "RCStructureGenerator", "SGStructureGenerator");
-        RecurrentComplex.cremapper.registerLegacyIDs(structureGenerator, true, "structureGenerator");
+        cremapper.registerLegacyIDs(structureGenerator, true, "structureGenerator");
 
-        mazeGenerator = new BlockMazeGenerator().setUnlocalizedName("mazeGenerator");
+        mazeGenerator = new BlockMazeGenerator().setTranslationKey("mazeGenerator");
         register(mazeGenerator, "maze_generator");
         register(BlockMazeGenerator.TileEntityMazeGenerator.class, "RCMazeGenerator", "SGMazeGenerator");
-        RecurrentComplex.cremapper.registerLegacyIDs(mazeGenerator, true, "mazeGenerator");
+        cremapper.registerLegacyIDs(mazeGenerator, true, "mazeGenerator");
 
-        spawnCommands = new BlockSpawnCommand().setUnlocalizedName("spawn_command");
+        spawnCommands = new BlockSpawnCommand().setTranslationKey("spawn_command");
         register(spawnCommands, "weighted_command_block");
         register(BlockSpawnCommand.TileEntitySpawnCommand.class, "RCSpawnCommand");
-        RecurrentComplex.cremapper.registerLegacyIDs(spawnCommands, true, "spawnCommand");
+        cremapper.registerLegacyIDs(spawnCommands, true, "spawnCommand");
 
-        spawnScript = new BlockScript().setUnlocalizedName("spawn_script");
+        spawnScript = new BlockScript().setTranslationKey("spawn_script");
         spawnScript.setCreativeTab(tabStructureTools);
         register(spawnScript, "spawn_script");
         register(TileEntityBlockScript.class, "RCSpawnScript");
 
-        inspector = new ItemInspector().setUnlocalizedName("recinspector");
+        inspector = new ItemInspector().setTranslationKey("recinspector");
         inspector.setCreativeTab(tabStructureTools);
         register(inspector, "inspector");
 
