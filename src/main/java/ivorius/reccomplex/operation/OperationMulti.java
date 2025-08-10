@@ -6,8 +6,6 @@
 package ivorius.reccomplex.operation;
 
 import ivorius.ivtoolkit.tools.NBTTagLists;
-import ivorius.reccomplex.operation.Operation;
-import ivorius.reccomplex.operation.OperationRegistry;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.world.World;

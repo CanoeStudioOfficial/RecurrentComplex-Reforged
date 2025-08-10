@@ -5,14 +5,14 @@
 
 package ivorius.reccomplex.commands.files;
 
-import ivorius.reccomplex.RCConfig;
-import ivorius.reccomplex.RecurrentComplex;
-import ivorius.reccomplex.commands.RCCommands;
-import ivorius.reccomplex.commands.RCTextStyle;
 import ivorius.mcopts.commands.CommandExpecting;
 import ivorius.mcopts.commands.parameters.NaP;
 import ivorius.mcopts.commands.parameters.Parameters;
 import ivorius.mcopts.commands.parameters.expect.Expect;
+import ivorius.reccomplex.RCConfig;
+import ivorius.reccomplex.RecurrentComplex;
+import ivorius.reccomplex.commands.RCCommands;
+import ivorius.reccomplex.commands.RCTextStyle;
 import ivorius.reccomplex.commands.parameters.RCP;
 import ivorius.reccomplex.commands.parameters.expect.RCE;
 import ivorius.reccomplex.files.loading.LeveledRegistry;

@@ -6,14 +6,15 @@
 package ivorius.reccomplex.commands.structure;
 
 import ivorius.ivtoolkit.util.IvStreams;
-import ivorius.reccomplex.RCConfig;
-import ivorius.reccomplex.RecurrentComplex;
 import ivorius.mcopts.commands.CommandExpecting;
-import ivorius.mcopts.commands.parameters.*;
+import ivorius.mcopts.commands.parameters.MCP;
+import ivorius.mcopts.commands.parameters.Parameters;
 import ivorius.mcopts.commands.parameters.expect.Expect;
 import ivorius.mcopts.commands.parameters.expect.MCE;
-import ivorius.reccomplex.commands.parameters.expect.RCE;
+import ivorius.reccomplex.RCConfig;
+import ivorius.reccomplex.RecurrentComplex;
 import ivorius.reccomplex.commands.parameters.RCP;
+import ivorius.reccomplex.commands.parameters.expect.RCE;
 import ivorius.reccomplex.files.RCFiles;
 import ivorius.reccomplex.files.loading.FileSuffixFilter;
 import ivorius.reccomplex.world.gen.feature.WorldGenStructures;

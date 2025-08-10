@@ -5,8 +5,8 @@
 
 package ivorius.reccomplex.network;
 
-import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 import io.netty.buffer.ByteBuf;
+import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 
 /**
  * Created by lukas on 17.01.15.

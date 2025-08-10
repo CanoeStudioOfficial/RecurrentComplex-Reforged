@@ -5,9 +5,9 @@
 
 package ivorius.reccomplex.commands;
 
+import ivorius.mcopts.commands.SimpleCommand;
 import ivorius.reccomplex.RCConfig;
 import ivorius.reccomplex.RecurrentComplex;
-import ivorius.mcopts.commands.SimpleCommand;
 import ivorius.reccomplex.network.PacketReopenGui;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;

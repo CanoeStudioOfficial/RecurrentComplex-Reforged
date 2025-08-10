@@ -6,19 +6,20 @@
 package ivorius.reccomplex.commands.structure;
 
 import ivorius.ivtoolkit.math.AxisAlignedTransform2D;
-import ivorius.reccomplex.RCConfig;
-import ivorius.reccomplex.commands.RCCommands;
 import ivorius.mcopts.commands.CommandExpecting;
-import ivorius.mcopts.commands.parameters.*;
+import ivorius.mcopts.commands.parameters.MCP;
+import ivorius.mcopts.commands.parameters.Parameters;
 import ivorius.mcopts.commands.parameters.expect.Expect;
 import ivorius.mcopts.commands.parameters.expect.MCE;
+import ivorius.reccomplex.RCConfig;
+import ivorius.reccomplex.commands.RCCommands;
 import ivorius.reccomplex.commands.parameters.IvP;
-import ivorius.reccomplex.commands.parameters.expect.RCE;
 import ivorius.reccomplex.commands.parameters.RCP;
+import ivorius.reccomplex.commands.parameters.expect.RCE;
+import ivorius.reccomplex.operation.OperationGenerateStructure;
 import ivorius.reccomplex.operation.OperationRegistry;
 import ivorius.reccomplex.utils.RCBlockAreas;
 import ivorius.reccomplex.world.gen.feature.StructureGenerator;
-import ivorius.reccomplex.operation.OperationGenerateStructure;
 import ivorius.reccomplex.world.gen.feature.structure.Structure;
 import ivorius.reccomplex.world.gen.feature.structure.generic.GenericStructure;
 import net.minecraft.command.CommandException;

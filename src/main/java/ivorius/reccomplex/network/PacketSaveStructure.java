@@ -6,9 +6,9 @@
 package ivorius.reccomplex.network;
 
 import io.netty.buffer.ByteBuf;
+import ivorius.reccomplex.utils.SaveDirectoryData;
 import ivorius.reccomplex.world.gen.feature.structure.generic.GenericStructure;
 import ivorius.reccomplex.world.gen.feature.structure.generic.StructureSaveHandler;
-import ivorius.reccomplex.utils.SaveDirectoryData;
 import net.minecraftforge.fml.common.network.ByteBufUtils;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
 

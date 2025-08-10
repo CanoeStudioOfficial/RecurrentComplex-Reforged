@@ -6,12 +6,12 @@
 package ivorius.reccomplex.commands.structure;
 
 import ivorius.ivtoolkit.tools.IvWorldData;
-import ivorius.reccomplex.RCConfig;
-import ivorius.reccomplex.capability.SelectionOwner;
-import ivorius.reccomplex.commands.RCCommands;
 import ivorius.mcopts.commands.CommandExpecting;
 import ivorius.mcopts.commands.parameters.Parameters;
 import ivorius.mcopts.commands.parameters.expect.Expect;
+import ivorius.reccomplex.RCConfig;
+import ivorius.reccomplex.capability.SelectionOwner;
+import ivorius.reccomplex.commands.RCCommands;
 import ivorius.reccomplex.commands.parameters.RCP;
 import ivorius.reccomplex.commands.parameters.expect.RCE;
 import ivorius.reccomplex.files.loading.ResourceDirectory;

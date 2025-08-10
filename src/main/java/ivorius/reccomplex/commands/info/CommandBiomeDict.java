@@ -6,15 +6,16 @@
 package ivorius.reccomplex.commands.info;
 
 import com.google.common.collect.Lists;
+import ivorius.mcopts.commands.CommandSplit;
+import ivorius.mcopts.commands.SimpleCommand;
+import ivorius.mcopts.commands.parameters.MCP;
+import ivorius.mcopts.commands.parameters.Parameters;
+import ivorius.mcopts.commands.parameters.expect.MCE;
+import ivorius.mcopts.translation.ServerTranslations;
 import ivorius.reccomplex.RCConfig;
 import ivorius.reccomplex.RecurrentComplex;
 import ivorius.reccomplex.commands.RCTextStyle;
-import ivorius.mcopts.commands.CommandSplit;
-import ivorius.mcopts.commands.SimpleCommand;
-import ivorius.mcopts.commands.parameters.*;
-import ivorius.mcopts.commands.parameters.expect.MCE;
 import ivorius.reccomplex.commands.structure.CommandSearchStructure;
-import ivorius.mcopts.translation.ServerTranslations;
 import ivorius.reccomplex.commands.structure.StructureSearch;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;

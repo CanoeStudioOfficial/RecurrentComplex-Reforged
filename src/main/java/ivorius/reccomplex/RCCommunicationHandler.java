@@ -6,17 +6,17 @@
 package ivorius.reccomplex;
 
 import com.google.common.base.Strings;
-import ivorius.reccomplex.files.loading.LeveledRegistry;
-import net.minecraftforge.fml.common.event.FMLInterModComms;
 import ivorius.ivtoolkit.tools.IvFMLIntercommHandler;
 import ivorius.ivtoolkit.tools.IvNBTHelper;
 import ivorius.reccomplex.dimensions.DimensionDictionary;
 import ivorius.reccomplex.files.loading.FileLoadContext;
+import ivorius.reccomplex.files.loading.LeveledRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.util.Constants;
+import net.minecraftforge.fml.common.event.FMLInterModComms;
 import org.apache.logging.log4j.Logger;
 
 import java.util.Arrays;

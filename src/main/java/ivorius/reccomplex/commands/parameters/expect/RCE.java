@@ -18,7 +18,6 @@ import ivorius.reccomplex.world.gen.feature.structure.schematics.SchematicLoader
 import net.minecraft.util.EnumFacing;
 
 import java.util.*;
-import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;

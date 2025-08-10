@@ -6,18 +6,17 @@
 package ivorius.reccomplex.operation;
 
 import ivorius.ivtoolkit.blocks.BlockPositions;
-import ivorius.reccomplex.RecurrentComplex;
-import ivorius.reccomplex.utils.RCAxisAlignedTransform;
-import ivorius.reccomplex.world.gen.feature.structure.schematics.SchematicFile;
-import net.minecraft.util.math.BlockPos;
 import ivorius.ivtoolkit.math.AxisAlignedTransform2D;
 import ivorius.ivtoolkit.rendering.grid.GridQuadCache;
+import ivorius.reccomplex.RecurrentComplex;
 import ivorius.reccomplex.client.rendering.OperationRenderer;
 import ivorius.reccomplex.client.rendering.SchematicQuadCache;
-import ivorius.reccomplex.operation.Operation;
-import net.minecraft.nbt.NBTTagCompound;
-import net.minecraft.world.World;
+import ivorius.reccomplex.utils.RCAxisAlignedTransform;
+import ivorius.reccomplex.world.gen.feature.structure.schematics.SchematicFile;
 import net.minecraft.client.renderer.GlStateManager;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
 import net.minecraft.world.WorldServer;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;

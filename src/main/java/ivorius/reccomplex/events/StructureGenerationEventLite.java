@@ -5,10 +5,10 @@
 
 package ivorius.reccomplex.events;
 
-import net.minecraft.world.gen.structure.StructureBoundingBox;
-import net.minecraftforge.fml.common.eventhandler.Cancelable;
 import net.minecraft.world.World;
+import net.minecraft.world.gen.structure.StructureBoundingBox;
 import net.minecraftforge.event.world.WorldEvent;
+import net.minecraftforge.fml.common.eventhandler.Cancelable;
 
 import javax.annotation.Nonnull;
 

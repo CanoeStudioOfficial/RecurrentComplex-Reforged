@@ -2,10 +2,9 @@ package ivorius.reccomplex.dimensions;
 
 import gnu.trove.map.TIntObjectMap;
 import gnu.trove.map.hash.TIntObjectHashMap;
+import net.minecraft.world.WorldProvider;
 
 import java.util.*;
-
-import net.minecraft.world.WorldProvider;
 
 /**
  * Handles tags for dimensions, in a way similar to {@link net.minecraftforge.common.BiomeDictionary}.

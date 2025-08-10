@@ -5,12 +5,12 @@
 
 package ivorius.reccomplex.commands;
 
-import ivorius.reccomplex.RCConfig;
 import ivorius.mcopts.commands.CommandExpecting;
-import ivorius.mcopts.commands.parameters.*;
+import ivorius.mcopts.commands.parameters.Parameters;
 import ivorius.mcopts.commands.parameters.expect.Expect;
-import ivorius.reccomplex.commands.parameters.expect.RCE;
+import ivorius.reccomplex.RCConfig;
 import ivorius.reccomplex.commands.parameters.RCP;
+import ivorius.reccomplex.commands.parameters.expect.RCE;
 import ivorius.reccomplex.files.loading.ResourceDirectory;
 import net.minecraft.client.renderer.OpenGlHelper;
 import net.minecraft.command.CommandException;

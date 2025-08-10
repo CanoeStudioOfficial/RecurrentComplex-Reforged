@@ -5,12 +5,12 @@
 
 package ivorius.reccomplex.network;
 
+import io.netty.buffer.ByteBuf;
 import ivorius.ivtoolkit.blocks.BlockPositions;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.math.BlockPos;
 import net.minecraftforge.fml.common.network.ByteBufUtils;
 import net.minecraftforge.fml.common.network.simpleimpl.IMessage;
-import io.netty.buffer.ByteBuf;
-import net.minecraft.nbt.NBTTagCompound;
 
 import javax.annotation.Nonnull;
 
