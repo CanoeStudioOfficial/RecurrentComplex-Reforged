@@ -5,6 +5,7 @@
 
 package ivorius.reccomplex;
 
+import io.reccomplex.reccomplex.Tags;
 import ivorius.ivtoolkit.tools.MCRegistry;
 import ivorius.ivtoolkit.tools.MCRegistryDefault;
 import ivorius.reccomplex.commands.RCCommands;
@@ -38,13 +39,13 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.Map;
 
-@Mod(modid = RecurrentComplex.MOD_ID, version = RecurrentComplex.VERSION, name = RecurrentComplex.NAME, guiFactory = "ivorius.reccomplex.gui.RCConfigGuiFactory",
+@Mod(modid = Tags.MOD_ID, version = Tags.VERSION, name = Tags.MOD_NAME, guiFactory = "ivorius.reccomplex.gui.RCConfigGuiFactory",
         dependencies = "required-after:ivtoolkit")
 public class RecurrentComplex
 {
-    public static final String NAME = "Recurrent Complex";
-    public static final String MOD_ID = "reccomplex";
-    public static final String VERSION = "1.4.8.6";
+    public static final String NAME = Tags.MOD_NAME;
+    public static final String MOD_ID = Tags.MOD_ID;
+    public static final String VERSION = Tags.VERSION;
 
     public static final boolean USE_JSON_FOR_NBT = true;
     public static final boolean USE_ZIP_FOR_STRUCTURE_FILES = true;

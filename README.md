@@ -1,22 +1,21 @@
-Recurrent Complex
-============
+## TemplateDevEnv
+_For Kotlin see [TemplateDevEnvKt](https://github.com/CleanroomMC/TemplateDevEnvKt)_
 
-[![Build Status](https://cloud.drone.io/api/badges/Ivorforce/RecurrentComplex/status.svg)](https://cloud.drone.io/Ivorforce/RecurrentComplex)
-![Curse Version](http://cf.way2muchnoise.eu/versions/223150.svg)
-![Curse Downloads](http://cf.way2muchnoise.eu/223150.svg)
+Template workspace for modding Minecraft 1.12.2. Licensed under MIT, it is made for public use.
 
-[Download](https://mods.curse.com/mc-mods/minecraft/223150-recurrent-complex#) | [Wiki](https://github.com/Ivorforce/RecurrentComplex/wiki) | [Forum](http://www.minecraftforum.net/topic/563257-172-ivorius-mods-drugs-statues-flags-boxes-of-doom-hamsters/) 
+This template runs on Java 21! Currently utilizies **Gradle 8.12** + **[RetroFuturaGradle](https://github.com/GTNewHorizons/RetroFuturaGradle) 1.4.1** + **Forge 14.23.5.2847**.
 
-Contributing
-============
+With **coremod and mixin support** that is easy to configure.
 
-Quick guide:
+### Instructions:
 
-Requires: [Gradle](https://gradle.org), [Java 8 JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
-* gradle setupDecompWorkspace
-* Depending on your IDE:
-  * IntelliJ idea: Import gradle project, then: gradle genIntellijRuns
-  * Eclipse: gradle eclipse
-* And you're done!
+1. Click `use this template` at the top.
+2. Clone the repository that you have created with this template to your local machine.
+3. Make sure IDEA is using Java 21 for Gradle before you sync the project. Verify this by going to IDEA's `Settings > Build, Execution, Deployment > Build Tools > Gradle > Gradle JVM`.
+4. Open the project folder in IDEA. When prompted, click "Load Gradle Project" as it detects the `build.gradle`, if you weren't prompted, right-click the project's `build.gradle` in IDEA, select `Link Gradle Project`, after completion, hit `Refresh All` in the gradle tab on the right.
+5. Run gradle tasks such as `runClient` and `runServer` in the IDEA gradle tab, or use the auto-imported run configurations like `1. Run Client`.
 
-This mod is written with [Minecraft Forge](http://www.minecraftforge.net/). Visit [its repo](https://github.com/MinecraftForge/MinecraftForge) for detailed setup instructions.
+### Notes:
+- Dependencies script in [gradle/scripts/dependencies.gradle](gradle/scripts/dependencies.gradle), explanations are commented in the file.
+- Publishing script in [gradle/scripts/publishing.gradle](gradle/scripts/publishing.gradle).
+- When writing Mixins on IntelliJ, it is advisable to use latest [MinecraftDev Fork for RetroFuturaGradle](https://github.com/eigenraven/MinecraftDev/releases).
