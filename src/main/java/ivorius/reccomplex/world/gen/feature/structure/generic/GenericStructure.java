@@ -22,7 +22,6 @@ import ivorius.reccomplex.temp.RCMover;
 import ivorius.reccomplex.temp.RCPosTransformer;
 import ivorius.reccomplex.utils.ItemHandlers;
 import ivorius.reccomplex.utils.RCStructureBoundingBoxes;
-import ivorius.reccomplex.utils.accessor.RCAccessorEntity;
 import ivorius.reccomplex.utils.accessor.RCAccessorWorldServer;
 import ivorius.reccomplex.utils.expression.DependencyExpression;
 import ivorius.reccomplex.world.gen.feature.structure.Structure;
@@ -231,7 +230,7 @@ public class GenericStructure implements Structure<GenericStructure.InstanceData
                     PosTransformer.transformEntityPos(entity, context.transform, areaSize);
                     Mover.moveEntity(entity, origin);
 
-                    RCAccessorEntity.setEntityUniqueID(entity, UUID.randomUUID());
+                    entity.setUniqueId(UUID.randomUUID());
                     generateEntityContents(context, entity);
                     world.spawnEntity(entity);
                 }
