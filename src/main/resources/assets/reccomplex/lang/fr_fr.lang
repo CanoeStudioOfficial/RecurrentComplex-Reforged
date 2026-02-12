@@ -248,10 +248,10 @@ reccomplex.weightedBlockStatePreset.clear.tooltip=pas de Blocs
 reccomplex.weightedBlockStatePreset.allWool=Laine
 reccomplex.weightedBlockStatePreset.allWool.tooltip=Tous les 16 blocs de laine
 
-reccomplex.expression.biome.tooltip=Ceci est une §oexpression de biome§r.<br>Visitez le wiki pour l'information de syntaxe.
-reccomplex.expression.dimension.tooltip=Ceci est une §oexpression de dimension§r.<br>Visitez le wiki pour l'information de syntaxe.
-reccomplex.expression.block.tooltip=Ceci est une §oexpression de bloc§r.<br>Visitez le wiki pour l'information de syntaxe.
-reccomplex.expression.dependency.tooltip=Ceci est une §oexpression de dépendance§r.<br>Visitez le wiki pour l'information de syntaxe.
+reccomplex.expression.biome.tooltip=Ceci est une §oexpression de biome§r.
+reccomplex.expression.dimension.tooltip=Ceci est une §oexpression de dimension§r.
+reccomplex.expression.block.tooltip=Ceci est une §oexpression de bloc§r.
+reccomplex.expression.dependency.tooltip=Ceci est une §oexpression de dépendance§r.
 
 reccomplex.direction.up=Haut (+Y)
 reccomplex.direction.down=Bas (-Y)

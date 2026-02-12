@@ -275,10 +275,10 @@ reccomplex.weightedBlockStatePreset.clear.tooltip=Keine Blöcke
 reccomplex.weightedBlockStatePreset.allWool=Wolle
 reccomplex.weightedBlockStatePreset.allWool.tooltip=Alle 16 Wolleblöcke
 
-reccomplex.expression.biome.tooltip=Dies ist eine §obiome expression§r.<br>Besuche die Wiki für syntax Informationen.
-reccomplex.expression.dimension.tooltip=Dies ist eine §odimension expression§r.<br>Besuche die Wiki für syntax Informationen.
-reccomplex.expression.block.tooltip=Dies ist eine §oblock expression§r.<br>Besuche die Wiki für syntax Informationen.
-reccomplex.expression.dependency.tooltip=Dies ist eine §odependency expression§r.<br>Besuche die Wiki für syntax Informationen.
+reccomplex.expression.biome.tooltip=Dies ist eine §obiome expression§r.
+reccomplex.expression.dimension.tooltip=Dies ist eine §odimension expression§r.
+reccomplex.expression.block.tooltip=Dies ist eine §oblock expression§r.
+reccomplex.expression.dependency.tooltip=Dies ist eine §odependency expression§r.
 
 reccomplex.direction.up=Hoch (+Y)
 reccomplex.direction.down=Runter (-Y)
