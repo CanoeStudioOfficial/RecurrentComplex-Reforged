@@ -45,9 +45,8 @@ import java.util.Map;
         dependencies = "required-after:ivtoolkit")
 public class RecurrentComplex
 {
-    public static final String NAME = Tags.MOD_NAME;
+
     public static final String MOD_ID = Tags.MOD_ID;
-    public static final String VERSION = Tags.VERSION;
 
     public static final boolean USE_JSON_FOR_NBT = true;
     public static final boolean USE_ZIP_FOR_STRUCTURE_FILES = true;
