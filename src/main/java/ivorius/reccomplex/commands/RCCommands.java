@@ -10,7 +10,6 @@ import ivorius.mcopts.commands.CommandSplit;
 import ivorius.mcopts.commands.parameters.DirectCommand;
 import ivorius.reccomplex.RCConfig;
 import ivorius.reccomplex.RecurrentComplex;
-import ivorius.reccomplex.Repository;
 import ivorius.reccomplex.capability.RCEntityInfo;
 import ivorius.reccomplex.capability.SelectionOwner;
 import ivorius.reccomplex.commands.clipboard.CommandPaste;
@@ -157,9 +156,6 @@ public class RCCommands
     public static void registerClientCommands(ClientCommandHandler handler)
     {
         handler.registerCommand(new CommandVisitFiles());
-
-        handler.registerCommand(new DirectCommand(RCConfig.commandPrefix + "repository", s -> Repository.openWebLink(Repository.BASE_URL)).permitFor(0));
-        handler.registerCommand(new DirectCommand(RCConfig.commandPrefix + "browse", s -> Repository.openWebLink(Repository.browseURL())).permitFor(0));
     }
 
     @Nonnull
@@ -224,10 +220,7 @@ public class RCCommands
         ITextComponent pathComponent = RCTextStyle.path(directory, id);
 
         if (result) {
-            sender.sendMessage(RecurrentComplex.translations.format("reccomplex.save.full",
-                    RecurrentComplex.translations.format("reccomplex.save.success", filetype, pathComponent),
-                    RCTextStyle.submit(id))
-            );
+            sender.sendMessage(RecurrentComplex.translations.format("reccomplex.save.success", filetype, pathComponent));
         }
         else
             sender.sendMessage(RecurrentComplex.translations.format("reccomplex.save.failure", filetype, pathComponent));

@@ -7,7 +7,6 @@ package ivorius.reccomplex.commands;
 
 import ivorius.ivtoolkit.blocks.BlockArea;
 import ivorius.reccomplex.RecurrentComplex;
-import ivorius.reccomplex.Repository;
 import ivorius.reccomplex.commands.info.CommandDimensionDict;
 import ivorius.reccomplex.dimensions.DimensionDictionary;
 import ivorius.reccomplex.files.loading.ResourceDirectory;
@@ -50,16 +49,6 @@ public class RCTextStyle
     public static ITextComponent path(ResourceDirectory directory, String... path)
     {
         return visit(directory.toFile(), ArrayUtils.add(path, 0, directory.toString()));
-    }
-
-    @Nonnull
-    public static ITextComponent submit(String id)
-    {
-        ITextComponent submit = RecurrentComplex.translations.get("reccomplex.save.submit");
-        submit.getStyle().setColor(TextFormatting.AQUA);
-        submit.getStyle().setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, RecurrentComplex.translations.get("reccomplex.save.submit.hover")));
-        submit.getStyle().setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, Repository.submitURL(id)));
-        return submit;
     }
 
     public static ITextComponent users(@Nullable String names)

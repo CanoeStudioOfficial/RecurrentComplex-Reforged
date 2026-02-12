@@ -8,7 +8,6 @@ package ivorius.reccomplex.events.handlers;
 import ivorius.ivtoolkit.rendering.grid.GridRenderer;
 import ivorius.reccomplex.RCConfig;
 import ivorius.reccomplex.RecurrentComplex;
-import ivorius.reccomplex.Repository;
 import ivorius.reccomplex.Wiki;
 import ivorius.reccomplex.capability.CapabilitySelection;
 import ivorius.reccomplex.capability.RCEntityInfo;
@@ -240,11 +239,6 @@ public class RCForgeEventHandler
                 list.getStyle().setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new TextComponentString("Show List")));
                 list.getStyle().setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, String.format("/%s", RCCommands.structures.list())));
 
-                ITextComponent add = new TextComponentString("[Add]");
-                add.getStyle().setColor(TextFormatting.GREEN);
-                add.getStyle().setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new TextComponentString("Browse Repository")));
-                add.getStyle().setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, Repository.browseURL()));
-
                 ITextComponent remove = new TextComponentString("[Remove]");
                 remove.getStyle().setColor(TextFormatting.RED);
                 remove.getStyle().setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new TextComponentString("Disabling Structures")));
@@ -255,7 +249,7 @@ public class RCForgeEventHandler
                 help.getStyle().setHoverEvent(new HoverEvent(HoverEvent.Action.SHOW_TEXT, new TextComponentString("Open Wiki")));
                 help.getStyle().setClickEvent(new ClickEvent(ClickEvent.Action.OPEN_URL, Wiki.HOME));
 
-                ITextComponent statusMessage = RecurrentComplex.translations.format("reccomplex.server.status", count, list, add, remove, help);
+                ITextComponent statusMessage = RecurrentComplex.translations.format("reccomplex.server.status", count, list, remove, help);
 
                 event.player.sendMessage(statusMessage);
             }
