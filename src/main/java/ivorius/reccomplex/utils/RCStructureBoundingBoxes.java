@@ -37,7 +37,10 @@ public class RCStructureBoundingBoxes
         if (minX > maxX || minZ > maxZ)
             return Collections.emptySet();
 
-        Set<ChunkPos> pairs = new HashSet<>((maxX - minX + 1) * (maxZ - minZ + 1));
+        int xSize = maxX - minX + 1;
+        int zSize = maxZ - minZ + 1;
+        int capacity = xSize > 0 && zSize > 0 ? xSize * zSize : 0;
+        Set<ChunkPos> pairs = new HashSet<>(capacity);
         for (int x = minX; x <= maxX; x++)
             for (int z = minZ; z <= maxZ; z++)
                 pairs.add(new ChunkPos(x, z));
