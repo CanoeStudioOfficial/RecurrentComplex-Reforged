@@ -157,6 +157,10 @@ public class StructureGenerator<S extends NBTStorable>
                 return failGenerate(GenerationResult.Failure.outOfBounds);
             }
 
+            if (!RCStructureBoundingBoxes.valid(boundingBox)) {
+                return failGenerate(GenerationResult.Failure.invalidBoundingBox);
+            }
+
             if (RCConfig.avoidOverlappingGeneration && !allowOverlaps && !WorldStructureGenerationData.get(world).entriesAt(boundingBox).noneMatch(WorldStructureGenerationData.Entry::blocking)) {
                 return failGenerate(GenerationResult.Failure.structureOverlap);
             }
@@ -643,6 +647,7 @@ public class StructureGenerator<S extends NBTStorable>
                     placement = new Failure("No suitable place"),
                     structureOverlap = new Failure("Overlapping Structure"),
                     outOfBounds = new Failure("Out of Bounds"),
+                    invalidBoundingBox = new Failure("Invalid Bounding Box (structure too small)"),
                     cancel = new Failure("Cancelled for Other Reasons");
             public final String description;
 
